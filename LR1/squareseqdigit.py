@@ -6,15 +6,18 @@ def calc_length_num(n):
     return lenght
 
 def squareSequenceDigit(n):
+    k = n
     x = 1
     while(True):
-        lenght = calc_length_num(x**2) # проверяем длину очередного числа
-        if (lenght < n): # если его длина меньше n
-            n -= lenght # вычитаем из n эту длину
-        else: # иначе возвращаем n-ую цифру числа
-            for i in range(n): # путём отсечения последней
-                x = x ** 2 % 10
-                return x
+        lenght = calc_length_num(x**2) 
+        if (lenght < n): 
+            n -= lenght 
+        else: 
+            if k % 2 != 0 or k <= 3:
+              x = x ** 2 % 10
+            else:
+              x = x ** 2 // 10
+            return x
         x += 1
 
 if __name__ == "__main__":
