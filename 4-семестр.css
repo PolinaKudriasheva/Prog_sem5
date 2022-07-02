@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 267px;
+  min-height: 499px;
 }
 
 .u-section-1 .u-text-1 {
@@ -7,17 +7,17 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 10px auto 0;
+  width: 127px;
+  margin: 39px auto 0;
 }
 
 .u-section-1 .u-list-1 {
   width: 893px;
-  margin: 30px auto 60px 123px;
+  margin: 61px auto 60px;
 }
 
 .u-section-1 .u-repeater-1 {
   min-height: 65px;
-  grid-auto-columns: calc(25% - 54.75px);
   grid-template-columns: calc(25% - 54.75px) calc(25% - 54.75px) calc(25% - 54.75px) calc(25% - 54.75px);
   grid-gap: 73px 73px;
 }
@@ -28,7 +28,9 @@
 
 .u-section-1 .u-btn-1 {
   background-image: none;
+  font-size: 1.25rem;
   margin: 0 auto;
+  padding: 20px 50px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -37,7 +39,9 @@
 
 .u-section-1 .u-btn-2 {
   background-image: none;
+  font-size: 1.25rem;
   margin: 0 auto;
+  padding: 20px 50px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -46,7 +50,9 @@
 
 .u-section-1 .u-btn-3 {
   background-image: none;
+  font-size: 1.25rem;
   margin: 0 auto;
+  padding: 20px 50px;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -55,28 +61,18 @@
 
 .u-section-1 .u-btn-4 {
   background-image: none;
+  font-size: 1.25rem;
   margin: 0 auto;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .u-list-1 {
-    margin-left: 47px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(4, calc(25% - 54.75px));
-  }
+  padding: 20px 50px;
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-list-1 {
     width: 720px;
-    margin-left: 0;
   }
 
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 36.5px);
-    grid-template-columns: repeat(2, calc(50% - 36.5px));
+    grid-template-columns: calc(50% - 36.5px) calc(50% - 36.5px);
     min-height: 210px;
   }
 }
@@ -87,7 +83,6 @@
   }
 
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
 }
@@ -95,9 +90,5 @@
 @media (max-width: 575px) {
   .u-section-1 .u-list-1 {
     width: 340px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 }
