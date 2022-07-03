@@ -54,7 +54,7 @@ performance = [float(x.replace(',', '.')) for x in cur_vals.values()]
 def get_currencies_year(currencie_id='R01239'): # функция получения валюты за год
 
     today = datetime.today() # берём сегодняшнюю дату
-    date = today - timedelta(days=365) # находим начальную дату: сегодняшняя - 365 денй
+    date = today - timedelta(days=365) # находим начальную дату: сегодняшняя - 365 дней
     result = dict()
     valute_name = "Евро"
 
